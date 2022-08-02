@@ -1,0 +1,142 @@
+ 
+#main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#rightBar{
+    height: 100%;
+
+  }
+
+ 
+p{
+    font-size:15px;
+    color: grey;
+}
+ #right {
+    float: right;
+}
+#para{
+    border-radius: 50%;
+        background-color: aqua;
+        padding: 10px;
+}
+.userName{
+display: flex;
+margin-top: 30px;
+margin-left: 20px;
+}
+ nav{
+    background: #FFFFFF;
+
+box-shadow: 10px 14px 70px rgba(0, 0, 0, 0.03);
+border-radius: 500px;
+
+ }
+ #generalInfo{
+    font-size: 20px;
+    margin: 30px;
+    background: #6AB4F8;
+    box-shadow: 0px 13px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 500px;
+    padding: 20px;  
+    border: #6AB4F8;
+    color: white;
+ }
+.sub-btn{
+    font-size: 20px;
+    margin: 30px;
+    box-shadow: 0px 13px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 500px;
+    color: #AAAAAA;
+    padding: 20px;  
+    border: #FFFFFF;
+}
+section{
+    background: #FFFFFF;
+    margin-left: 60px;
+    border-radius: 20px;
+    height: 650px;
+    padding: 8px;
+  }
+#form-container{
+display: flex;
+gap: 150px;
+margin-left: 150px;
+margin-top: 40px;
+ 
+}
+label{
+    font-size: 20px;
+    display: flex;
+}
+.inputField {
+    display: flex;
+    border-radius:3px ;
+    border: 1px solid rgb(80, 78, 78);
+}
+.inputField input{
+padding: 7px;
+    border:none;
+}
+ 
+#camera{
+     display: flex; 
+    gap: 30px;
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+    font-size: 40px;
+    justify-content: center;
+    background: #6AB4F8;
+color: #FFFFFF;;
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.13);
+border-radius: 50%;
+margin-left: 150px;
+}
+#lowerBtn {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+position: relative;
+top: 50px;
+
+}
+.previousBtn{
+    background: #6AB4F8;
+    border: #6AB4F8;
+box-shadow: 0px 13px 25px rgba(0, 0, 0, 0.15);
+border-radius: 500px;
+padding: 20px;
+color: white;
+width: 100px;
+}
+.saveBtn{
+    background: #4C57B6;
+    border: #4C57B6;
+box-shadow: 0px 13px 25px rgba(0, 0, 0, 0.15);
+border-radius: 50px;
+padding: 20px;
+color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 6px 8px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+  
+  
